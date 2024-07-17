@@ -54,4 +54,45 @@
   .contact-form button:hover {
     background-color: #2980b9;
   }
+
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 30px;
+      margin: 30px auto;
+    }
+  
+    .contact-form label {
+      margin-bottom: 10px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 14px;
+    }
+  
+    .contact-form button {
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 480px) {
+    .contact-container {
+      padding: 20px;
+      margin: 20px auto;
+    }
+  
+    .contact-form label {
+      margin-bottom: 10px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 14px;
+    }
+  
+    .contact-form button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
   
