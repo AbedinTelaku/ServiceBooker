@@ -4,6 +4,7 @@ import Navbar from './components/NavbarComponent/Navbar';
 import About from './components/AboutComponent/About';
 import Contact from './components/ContactUsComponent/Contact';
 import Company from './components/Company/Company';
+import Footer from './components/FooterComponent/FooterComponent';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/contact'  element={<Contact />} />
           <Route path='/company'  element={<Company/>} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
