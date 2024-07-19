@@ -19,6 +19,8 @@ function Home() {
         <li className='components'><Link to="/about" onClick={toggleMenu}>About</Link></li>
         <li className='components'><Link to="/company" onClick={toggleMenu}>Company</Link></li>
         <li className='components'><Link to="/contact" onClick={toggleMenu}>Contact us</Link></li>
+        <li className='components'><Link to="/login" onClick={toggleMenu}>Login</Link></li>
+        <li className='components'><Link to="/register" onClick={toggleMenu}>Register</Link></li>
       </ul>
     </nav>
   );
